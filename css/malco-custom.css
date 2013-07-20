@@ -1,0 +1,72 @@
+/* Malco Creative */
+
+body {
+    background: #111111;
+}
+
+/* Menu */
+div.rt-block.menu-block {
+    margin-top: 35px;
+}
+div.menu-block > ul.gf-menu > li {
+    margin: 0;
+    height: 6em;
+    width: 100%;
+}
+div.menu-block > ul.gf-menu > li.active {
+    background: red;
+}
+div.menu-block > ul.gf-menu > li.active > a.item {
+    color: yellow;
+}
+div.menu-block > ul.gf-menu > li > a.item {
+    color: red;
+    font-weight: bold;
+    padding: 14% 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.menu-block > ul.gf-menu > li.parent > a.item::after {
+    content: "";
+}
+
+div.moduletable-music {
+    background-color: #3f3f3f;
+    margin-bottom: 10px;
+}
+ul.menu-music.gf-menu {
+    display: table !important;
+    margin: 0 auto;
+}
+ul.menu-music.gf-menu > li {
+    margin: 1px;
+}
+ul.menu-music.gf-menu > li.active {
+    background-color: #8eab15;
+}
+ul.menu-music.gf-menu > li.active > a {
+    color: #3f3f3f;
+}
+ul.menu-music.gf-menu > li > a {
+    color: #8eab15;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: normal;
+    padding: 0.5em 2.25em;
+    text-transform: uppercase;
+}
+
+/* Headers */
+h1 {
+    background-color: red;
+    color: white;
+    margin: 1.25em 0 3px 0;
+    padding: 0.5em 0 0.5em 1.25em;
+    text-transform: uppercase;
+}
+
+/* Miscellaneous */
+div.contactform td.label {
+    background-color: transparent;
+}
